@@ -1,1 +1,1 @@
-Esta es la terceraa entrega de mi proyecto de CoderHouse 
+Esta es la tercera entrega de mi proyecto de CoderHouse 
