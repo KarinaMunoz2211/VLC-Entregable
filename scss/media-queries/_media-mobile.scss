@@ -1,4 +1,5 @@
 @media screen and (max-width:480px){
+<<<<<<< HEAD
     .navegable{
         display:none;
     }
@@ -7,5 +8,34 @@
     margin-right: 5px;
     display: flex;
     align-items: center;
+=======
+    
+    header{
+        padding: 15px;
+
+        li{
+            margin:0.3rem;
+
+>>>>>>> testing-styles
     }
+
+    footer{
+        background-color: #e5fd4f;
+    
+        .footer-content{
+            padding: 0;
+            margin: 5px;
+    
+            .link{
+                padding-bottom: 20px;
+                
+                li{
+                    display: inline;
+                    justify-content:center;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
 }
