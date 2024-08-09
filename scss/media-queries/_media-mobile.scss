@@ -5,10 +5,26 @@
 
         li{
             margin:0.3rem;
-            a{
-                text-decoration: ;
-            }
-        }
 
     }
+
+    footer{
+        background-color: #e5fd4f;
+    
+        .footer-content{
+            padding: 0;
+            margin: 5px;
+    
+            .link{
+                padding-bottom: 20px;
+                
+                li{
+                    display: inline;
+                    justify-content:center;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
 }
