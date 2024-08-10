@@ -1,3 +1,18 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+
 header {
   background-color: #e5fd4f;
   display: flex;
@@ -32,35 +47,6 @@ header ul a:hover {
   transition: 0.5s;
 }
 
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #2d2d2d;
-}
-body main {
-  background-color: #cfcfc7;
-  margin: 20px 5px;
-  text-align: justify;
-}
-
-section h1 {
-  margin: 10px;
-  padding: 10px;
-  font-style: oblique;
-  font-weight: bold;
-}
-section p {
-  padding: 10px;
-}
-section .img-rubro-ppal {
-  align-items: center;
-  margin: 10px;
-}
-
 footer {
   background-color: #e5fd4f;
 }
@@ -75,6 +61,20 @@ footer .footer-content .link li {
   display: inline;
   justify-content: space-between;
   text-decoration: none;
+}
+
+section h1 {
+  margin: 10px;
+  padding: 10px;
+  font-style: oblique;
+  font-weight: bold;
+}
+section p {
+  padding: 10px;
+}
+section .img-rubro-ppal {
+  align-items: center;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
