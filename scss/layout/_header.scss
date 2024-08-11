@@ -1,6 +1,8 @@
+//LINK DE PARCIAL VARIABLES
+@import "../utilities/variables";
 
 header{
-    background-color: #e5fd4f;
+    background-color:$color-encuadre;
     display: flex;
     justify-content: space-around;
     
@@ -26,7 +28,7 @@ header{
 
         &:hover{
             background-color: #2D2D2D;
-            color:#e5fd4f;
+            color:$color-encuadre;
             transition:0.5s;
         }
         }
