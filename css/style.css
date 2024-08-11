@@ -39,11 +39,13 @@ header .navegable a:hover {
   color: #e5fd4f;
   transition: 0.5s;
 }
-header .boton-ham {
+header .navbar-toggler-icon {
   width: 20px;
   margin-right: 5px;
   display: flex;
   align-items: center;
+  background-color: #e5fd4f;
+  color: #e5fd4f;
 }
 
 footer {

@@ -33,10 +33,12 @@ header{
         }
         }
     }
-    .boton-ham{
+    .navbar-toggler-icon{
         width: 20px;
         margin-right: 5px;
         display: flex;
         align-items: center;
+        background-color: $color-encuadre;
+        color:$color-encuadre;
     }
 }
