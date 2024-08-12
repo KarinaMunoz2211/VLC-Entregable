@@ -2,43 +2,39 @@
 @import "../utilities/variables";
 
 header{
-    background-color:$color-encuadre;
+    background-color:$color-principal;
     display: flex;
     justify-content: space-around;
+    height: 80px;
     
     .vlc-logo{
         img{
             width: 80px;
         }
     }
+    .navbar{
+        background-color: $color-principal;
+        .nabvar-expand-lg{
+            background-color: $color-principal;
+            .bg-body-tertiary{
+                background-color: $color-principal;
+                padding: 8px;
+
+            }
+        }
+        .container-fluid{
+            background-color: $color-principal;
+            padding:10px;
+        }
+        .navbar-toggler{
+            color:$color-principal;
+            padding:10px;
+            .navbar-toggler-icon{
+                width: 30px;
+        
+                }
+            }
+        }
+    }
+
     
-
-    .navegable{
-        display: flex;
-        list-style-type: none;
-        margin-top: 30px;
-
-        a{
-        color:#2D2D2D;
-        text-decoration: none;
-        padding: 10px;
-        margin: 3px;
-        border: 1px solid #2D2D2D;
-        border-radius: 10px;
-
-        &:hover{
-            background-color: #2D2D2D;
-            color:$color-encuadre;
-            transition:0.5s;
-        }
-        }
-    }
-    .navbar-toggler-icon{
-        width: 20px;
-        margin-right: 5px;
-        display: flex;
-        align-items: center;
-        background-color: $color-encuadre;
-        color:$color-encuadre;
-    }
-}

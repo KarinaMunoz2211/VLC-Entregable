@@ -17,35 +17,31 @@ header {
   background-color: #e5fd4f;
   display: flex;
   justify-content: space-around;
+  height: 80px;
 }
 header .vlc-logo img {
   width: 80px;
 }
-header .navegable {
-  display: flex;
-  list-style-type: none;
-  margin-top: 30px;
-}
-header .navegable a {
-  color: #2D2D2D;
-  text-decoration: none;
-  padding: 10px;
-  margin: 3px;
-  border: 1px solid #2D2D2D;
-  border-radius: 10px;
-}
-header .navegable a:hover {
-  background-color: #2D2D2D;
-  color: #e5fd4f;
-  transition: 0.5s;
-}
-header .navbar-toggler-icon {
-  width: 20px;
-  margin-right: 5px;
-  display: flex;
-  align-items: center;
+header .navbar {
   background-color: #e5fd4f;
+}
+header .navbar .nabvar-expand-lg {
+  background-color: #e5fd4f;
+}
+header .navbar .nabvar-expand-lg .bg-body-tertiary {
+  background-color: #e5fd4f;
+  padding: 8px;
+}
+header .navbar .container-fluid {
+  background-color: #e5fd4f;
+  padding: 10px;
+}
+header .navbar .navbar-toggler {
   color: #e5fd4f;
+  padding: 10px;
+}
+header .navbar .navbar-toggler .navbar-toggler-icon {
+  width: 30px;
 }
 
 footer {
