@@ -1,10 +1,11 @@
 //LINK DE PARCIAL VARIABLES
 @import "../utilities/variables";
+@import "../base/reset";
 
 header{
     background-color:$color-principal;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80px;
     
     .vlc-logo{
@@ -12,29 +13,35 @@ header{
             width: 80px;
         }
     }
-    .navbar{
+    .nav-item{
         background-color: $color-principal;
-        .nabvar-expand-lg{
-            background-color: $color-principal;
-            .bg-body-tertiary{
-                background-color: $color-principal;
-                padding: 8px;
-
-            }
-        }
-        .container-fluid{
-            background-color: $color-principal;
-            padding:10px;
-        }
-        .navbar-toggler{
-            color:$color-principal;
-            padding:10px;
-            .navbar-toggler-icon{
-                width: 30px;
-        
-                }
-            }
-        }
+        border-radius: 2px;
+        align-items: center;
+        padding: 10px;
     }
-
-    
+    .container-fluid{
+        background-color: $color-principal;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-collapse{
+        align-items: center;
+    }
+    .container-fluid{
+        background-color: $color-principal;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-item{
+        background-color: $color-principal;
+        border-radius: 2px;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        &hover{background-color: #2d2d2d;
+            color:$color-principal;
+            transition: 0.5s;
+            }
+        }
+}
