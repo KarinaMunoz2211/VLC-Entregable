@@ -1,4 +1,4 @@
-por* {
+* {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ header .nav-item {
   background-color: #e5fd4f;
   border-radius: 2px;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
 }
 header .container-fluid {
   background-color: #e5fd4f;
@@ -55,7 +55,7 @@ header .container-fluid {
   background-color: #e5fd4f;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 5px;
 }
 header .nav-item {
   background-color: #e5fd4f;

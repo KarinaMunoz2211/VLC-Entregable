@@ -1,1 +1,1 @@
-Esta es la tercera entrega de mi proyecto de CoderHouse 
+Esta es la entrega de mi Proyecto Final para el curso de Desarrollo Web de CoderHouse. 
